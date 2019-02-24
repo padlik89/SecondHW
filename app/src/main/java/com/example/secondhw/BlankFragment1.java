@@ -19,7 +19,7 @@ public class BlankFragment1 extends Fragment {
         int docCount = getArguments().getInt(doc_count);
         String string = getResources().getText(R.string.document) + String.valueOf(docCount);
         doc.setText(string);
-        return view;
+        return view;//
 
     }
 

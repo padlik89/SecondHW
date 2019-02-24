@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
                 if (fragmentManager.getBackStackEntryCount() == 0) checkEnabled(false);
                 else checkEnabled(true);
             }
-        });
+        });//
     }
 
     //сохранение данных при повороте экрана
